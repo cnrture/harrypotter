@@ -1,5 +1,6 @@
 site:
   title: "Jshtmlsample"
+  routePrefix: "jshtmlsample"
 
 server:
   files:
@@ -9,6 +10,6 @@ server:
       api: "build/libs/jshtmlsample.jar"
     prod:
       script: "build/dist/js/productionExecutable/jshtmlsample.js"
-      siteRoot: ".kobweb/site"
+      siteRoot: "../docs"
 
   port: 8080
