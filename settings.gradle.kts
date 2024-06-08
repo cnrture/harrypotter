@@ -6,6 +6,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = "jshtmlsample"
+rootProject.name = "HarryPotter"
 
 include(":site")

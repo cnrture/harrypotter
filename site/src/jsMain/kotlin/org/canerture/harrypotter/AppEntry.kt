@@ -1,4 +1,4 @@
-package org.example.jshtmlsample
+package org.canerture.harrypotter
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect

@@ -1,15 +1,15 @@
 site:
-  title: "Jshtmlsample"
-  routePrefix: "jshtmlsample"
+  title: "Harry Potter"
+  routePrefix: "harrypotter"
 
 server:
   files:
     dev:
       contentRoot: "build/processedResources/js/main/public"
-      script: "build/dist/js/developmentExecutable/jshtmlsample.js"
-      api: "build/libs/jshtmlsample.jar"
+      script: "build/dist/js/developmentExecutable/harrypotter.js"
+      api: "build/libs/harrypotter.jar"
     prod:
-      script: "build/dist/js/productionExecutable/jshtmlsample.js"
+      script: "build/dist/js/productionExecutable/harrypotter.js"
       siteRoot: "../docs"
 
   port: 8080

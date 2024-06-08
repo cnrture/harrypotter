@@ -1,4 +1,4 @@
-package org.example.jshtmlsample
+package org.canerture.harrypotter
 
 import com.varabyte.kobweb.compose.ui.graphics.Color
 import com.varabyte.kobweb.compose.ui.graphics.Colors
@@ -14,30 +14,24 @@ import com.varabyte.kobweb.silk.theme.colors.palette.color
  */
 class SitePalette(
     val nearBackground: Color,
-    val cobweb: Color,
     val brand: Brand,
 ) {
     class Brand(
-        val primary: Color = Color.rgb(0x3C83EF),
-        val accent: Color = Color.rgb(0xF3DB5B),
+        val primary: Color = Colors.Black,
     )
 }
 
 object SitePalettes {
     val light = SitePalette(
         nearBackground = Color.rgb(0xF4F6FA),
-        cobweb = Colors.LightGray,
         brand = SitePalette.Brand(
-            primary = Color.rgb(0x3C83EF),
-            accent = Color.rgb(0xFCBA03),
+            primary = Colors.Black,
         )
     )
     val dark = SitePalette(
-        nearBackground = Color.rgb(0x13171F),
-        cobweb = Colors.LightGray.inverted(),
+        nearBackground = Color.rgb(0x242b3a),
         brand = SitePalette.Brand(
-            primary = Color.rgb(0x3C83EF),
-            accent = Color.rgb(0xF3DB5B),
+            primary = Colors.White,
         )
     )
 }
