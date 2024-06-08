@@ -56,7 +56,7 @@ fun IndexPage() {
 
             is CharacterListState.Success -> {
                 SimpleGrid(
-                    numColumns = ResponsiveValues(1, 2, 4, 4, 5),
+                    numColumns = ResponsiveValues(1, 2, 3, 3, 3),
                     modifier = Modifier.fillMaxWidth().padding(2.cssRem)
                 ) {
                     currentState.characters.forEach { character ->
